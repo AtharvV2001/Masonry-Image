@@ -1,3 +1,4 @@
+import GridSpanGallery from "./col-images";
 import { images } from "./data";
 import MasonryGrid from "./image";
 
@@ -8,6 +9,7 @@ function App() {
         <h1 className="text-2xl font-semibold mb-6">Masonry Image Gallery</h1>
 
         <MasonryGrid images={images} />
+        <GridSpanGallery images={images} />
       </div>
     </>
   );

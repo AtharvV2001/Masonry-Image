@@ -1,6 +1,7 @@
 import GridSpanGallery from "./col-images";
 import { images } from "./data";
 import MasonryGrid from "./image";
+import MasonryGridS from "./img-similar";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <h1 className="text-2xl font-semibold mb-6">Masonry Image Gallery</h1>
 
         <MasonryGrid images={images} />
+        <MasonryGridS images={images} />
         <GridSpanGallery images={images} />
       </div>
     </>
